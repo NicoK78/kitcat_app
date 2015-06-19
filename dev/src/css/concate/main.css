@@ -1,0 +1,42 @@
+#joystick {
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  background-color: red;
+  bottom: 0;
+  right: 0;
+}
+
+#top {
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  top: 0;
+  background-color: grey;
+  height: 20%;
+  width: 20%;
+}
+
+#left {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 0;
+  margin-right: 29%;
+  margin-top: 19%;
+  background-color: grey;
+  height: 20%;
+  width: 20%;
+}
+
+#right {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 0;
+  margin-left: 29%;
+  margin-top: 19%;
+  background-color: grey;
+  height: 20%;
+  width: 20%;
+}
+
+/*# sourceMappingURL=index.css.map */

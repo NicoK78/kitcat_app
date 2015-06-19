@@ -25,15 +25,15 @@
 
 $(document).ready(function() {
 
-	// // on affiche les zones touchées par le multitouch
-	// if(!Hammer.HAS_TOUCHEVENTS && !Hammer.HAS_POINTEREVENTS) {
-	// 	Hammer.plugins.showTouches();
-	// }
+	// on affiche les zones touchées par le multitouch
+	if(!Hammer.HAS_TOUCHEVENTS && !Hammer.HAS_POINTEREVENTS) {
+		Hammer.plugins.showTouches();
+	}
 
-	// // on simule le multitouch grâce à SHIFT + MOUSE
-	// if(!Hammer.HAS_TOUCHEVENTS && !Hammer.HAS_POINTEREVENTS) {
-	// 	Hammer.plugins.fakeMultitouch();
-	// }
+	// on simule le multitouch grâce à SHIFT + MOUSE
+	if(!Hammer.HAS_TOUCHEVENTS && !Hammer.HAS_POINTEREVENTS) {
+		Hammer.plugins.fakeMultitouch();
+	}
 
 	var hammer = Hammer($("#ball"), {
 		transform_always_block: true,
