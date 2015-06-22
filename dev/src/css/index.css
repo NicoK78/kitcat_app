@@ -1,42 +1,58 @@
-#joystick {
-  position: absolute;
-  height: 200px;
-  width: 200px;
-  background-color: red;
-  bottom: 0;
-  right: 0;
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: green;
 }
 
-#top {
-  display: block;
-  margin: 0 auto;
+#joy_contain {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+}
+
+#joystick {
   position: relative;
-  top: 0;
-  background-color: grey;
-  height: 20%;
-  width: 20%;
+  width: 150px;
+  height: 150px;
+  background: transparent;
 }
 
 #left {
-  display: inline-block;
-  vertical-align: middle;
-  margin-left: 0;
-  margin-right: 29%;
-  margin-top: 19%;
-  background-color: grey;
-  height: 20%;
-  width: 20%;
+  position: absolute;
+  top: 50%;
+  left: 0px;
+  width: 50px;
+  margin-top: -25px;
+  height: 50px;
+  background: blue;
 }
 
 #right {
-  display: inline-block;
-  vertical-align: middle;
-  margin-right: 0;
-  margin-left: 29%;
-  margin-top: 19%;
-  background-color: grey;
-  height: 20%;
-  width: 20%;
+  position: absolute;
+  top: 50%;
+  right: 0px;
+  width: 50px;
+  margin-top: -25px;
+  height: 50px;
+  background: blue;
 }
 
-/*# sourceMappingURL=index.css.map */
+#top {
+  position: absolute;
+  top: 0px;
+  left: 50%;
+  width: 50px;
+  margin-left: -25px;
+  height: 50px;
+  background: blue;
+}
+
+#bottom {
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  width: 50px;
+  margin-left: -25px;
+  height: 50px;
+  background: blue;
+}
